@@ -289,7 +289,8 @@ and Selenium2 browser emulator for that task.
 
 Selenium2 gives you the ability to take full control of a real browser with a clean
 consistent proxy API. And Mink uses this API extensively in order to use the same
-Mink API and steps to do **real** actions in a **real** browser.
+Mink API and steps to do **real** actions in a **real** browser. By default, Mink will 
+try to use Firefox. Be sure to install Firefox before running the jar file.
 
 All you need to do is install Selenium:
 
